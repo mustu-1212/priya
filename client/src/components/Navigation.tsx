@@ -33,39 +33,44 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="font-dm-serif text-2xl font-bold text-charcoal">
-            Priya Dhurve
+            <span className="text-deep-blush">Priya</span> Dhurve
           </div>
           
           <div className="hidden md:flex space-x-8">
             <button 
               onClick={() => scrollToSection('home')}
-              className="text-sm font-medium hover:text-dusty-rose transition-colors duration-200"
+              className="text-sm font-medium hover:text-deep-blush transition-colors duration-200 relative group"
             >
               Home
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-deep-blush transition-all duration-200 group-hover:w-full"></span>
             </button>
             <button 
               onClick={() => scrollToSection('editorials')}
-              className="text-sm font-medium hover:text-dusty-rose transition-colors duration-200"
+              className="text-sm font-medium hover:text-deep-blush transition-colors duration-200 relative group"
             >
               Editorials
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-deep-blush transition-all duration-200 group-hover:w-full"></span>
             </button>
             <button 
               onClick={() => scrollToSection('polaroids')}
-              className="text-sm font-medium hover:text-dusty-rose transition-colors duration-200"
+              className="text-sm font-medium hover:text-deep-blush transition-colors duration-200 relative group"
             >
               Polaroids
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-deep-blush transition-all duration-200 group-hover:w-full"></span>
             </button>
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-sm font-medium hover:text-dusty-rose transition-colors duration-200"
+              className="text-sm font-medium hover:text-deep-blush transition-colors duration-200 relative group"
             >
               About
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-deep-blush transition-all duration-200 group-hover:w-full"></span>
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-sm font-medium hover:text-dusty-rose transition-colors duration-200"
+              className="text-sm font-medium hover:text-deep-blush transition-colors duration-200 relative group"
             >
               Contact
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-deep-blush transition-all duration-200 group-hover:w-full"></span>
             </button>
           </div>
           

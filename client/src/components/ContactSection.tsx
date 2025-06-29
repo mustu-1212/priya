@@ -25,13 +25,30 @@ export default function ContactSection() {
 
   const contactMutation = useMutation({
     mutationFn: async (data: ContactFormData) => {
-      return await apiRequest("POST", "/api/contact", data);
+      try {
+        return await apiRequest("POST", "/api/contact", data);
+      } catch (error) {
+        // Fallback to mailto for Vercel deployment
+        const subject = encodeURIComponent('Collaboration Inquiry from ' + data.name);
+        const body = encodeURIComponent(
+          `Hi Priya,\n\nName: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}\n\nBest regards,\n${data.name}`
+        );
+        window.location.href = `mailto:priya.dhurve@example.com?subject=${subject}&body=${body}`;
+        return { success: true, method: 'mailto' };
+      }
     },
-    onSuccess: () => {
-      toast({
-        title: "Message sent successfully!",
-        description: "Thank you for reaching out. I'll get back to you soon.",
-      });
+    onSuccess: (data: any) => {
+      if (data && typeof data === 'object' && data.method === 'mailto') {
+        toast({
+          title: "Opening email client",
+          description: "Your email client will open with the message pre-filled.",
+        });
+      } else {
+        toast({
+          title: "Message sent successfully!",
+          description: "Thank you for reaching out. I'll get back to you soon.",
+        });
+      }
       setFormData({ name: "", email: "", message: "" });
     },
     onError: () => {
@@ -170,7 +187,7 @@ export default function ContactSection() {
               <Button
                 type="submit"
                 disabled={contactMutation.isPending}
-                className="w-full bg-dusty-rose text-white font-medium py-3 px-6 rounded-lg hover:bg-dusty-rose/90 transition-all duration-200 transform hover:scale-[1.02]"
+                className="w-full bg-deep-blush text-white font-medium py-3 px-6 rounded-lg hover:bg-dusty-rose transition-all duration-200 transform hover:scale-[1.02] shadow-md"
               >
                 {contactMutation.isPending ? "Sending..." : "Send Message"}
               </Button>

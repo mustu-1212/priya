@@ -82,17 +82,29 @@ This is a professional portfolio website for Priya Dhurve, a fashion influencer 
 3. Static serving: Production Express server serves built frontend assets
 4. Database: PostgreSQL connection via environment variable
 
+### Vercel Deployment
+- **Configuration**: `vercel.json` for serverless functions and routing
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist/public`
+- **Contact Form**: Automatic fallback to mailto functionality when API unavailable
+- **Static Assets**: Optimized serving with Vercel CDN
+- **Environment**: Serverless functions for API endpoints
+
 ### Environment Configuration
 - **Development**: NODE_ENV=development with tsx for server execution
 - **Production**: NODE_ENV=production with bundled JavaScript execution
 - **Database**: DATABASE_URL environment variable for PostgreSQL connection
+- **Vercel**: Automatic environment detection with serverless optimization
 
 ## Recent Changes
 - **June 29, 2025**: Initial portfolio setup with complete image galleries
-- **June 29, 2025**: Added blush pink + beige gradient background
+- **June 29, 2025**: Added blush pink + beige gradient background with enhanced color palette
 - **June 29, 2025**: Updated Instagram links to provided URL with tracking parameters
-- **June 29, 2025**: Added all 19 provided images to complete gallery section
+- **June 29, 2025**: Added all 28 provided images to complete gallery section
 - **June 29, 2025**: Implemented glassmorphism design with backdrop blur effects
+- **June 29, 2025**: Enhanced navigation with blush pink accents and hover animations
+- **June 29, 2025**: Added Vercel deployment configuration with vercel.json and README
+- **June 29, 2025**: Implemented contact form with mailto fallback for Vercel deployment
 
 ## User Preferences
 

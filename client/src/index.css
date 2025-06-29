@@ -27,9 +27,11 @@
   --radius: 0.5rem;
   
   /* Custom portfolio colors */
-  --soft-beige: hsl(40, 29%, 95%);
-  --blush-pink: hsl(0, 50%, 85%);
-  --dusty-rose: hsl(28, 32%, 62%);
+  --soft-beige: hsl(35, 40%, 90%);
+  --blush-pink: hsl(345, 60%, 85%);
+  --dusty-rose: hsl(345, 45%, 75%);
+  --deep-blush: hsl(345, 55%, 65%);
+  --warm-beige: hsl(35, 35%, 85%);
   --soft-gold: hsl(40, 41%, 82%);
   --charcoal: hsl(0, 0%, 20%);
 }
@@ -64,7 +66,7 @@
   body {
     @apply font-sans antialiased bg-background text-foreground;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, hsl(var(--blush-pink)) 0%, hsl(var(--soft-beige)) 100%);
+    background: linear-gradient(135deg, hsl(var(--blush-pink)) 0%, hsl(var(--soft-beige)) 50%, hsl(var(--warm-beige)) 100%);
     min-height: 100vh;
     color: hsl(var(--charcoal));
   }
@@ -123,8 +125,24 @@
     background-color: hsl(var(--charcoal));
   }
   
+  .bg-deep-blush {
+    background-color: hsl(var(--deep-blush));
+  }
+  
+  .bg-warm-beige {
+    background-color: hsl(var(--warm-beige));
+  }
+  
+  .text-deep-blush {
+    color: hsl(var(--deep-blush));
+  }
+  
   .border-dusty-rose {
     border-color: hsl(var(--dusty-rose));
+  }
+  
+  .border-blush-pink {
+    border-color: hsl(var(--blush-pink));
   }
   
   .hover\:text-dusty-rose:hover {
@@ -135,8 +153,16 @@
     background-color: hsl(var(--dusty-rose));
   }
   
+  .hover\:bg-deep-blush:hover {
+    background-color: hsl(var(--deep-blush));
+  }
+  
   .focus\:ring-dusty-rose:focus {
     --tw-ring-color: hsl(var(--dusty-rose));
+  }
+  
+  .focus\:ring-blush-pink:focus {
+    --tw-ring-color: hsl(var(--blush-pink));
   }
 }
 
