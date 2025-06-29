@@ -56,7 +56,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-white/70 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 scroll-reveal">
           <h2 className="font-dm-serif text-4xl md:text-5xl font-bold text-charcoal mb-4">
@@ -92,7 +92,14 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-medium text-charcoal">Instagram</p>
-                    <p className="text-gray-600">@belike_._priya</p>
+                    <a 
+                      href="https://www.instagram.com/belike_._priya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-gray-600 hover:text-dusty-rose transition-colors"
+                    >
+                      @belike_._priya
+                    </a>
                   </div>
                 </div>
               </div>

@@ -12,7 +12,7 @@ export default function Footer() {
           
           <div className="flex justify-center space-x-6 mb-8">
             <a 
-              href="https://instagram.com/belike_._priya" 
+              href="https://www.instagram.com/belike_._priya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-dusty-rose transition-colors duration-300"

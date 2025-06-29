@@ -16,7 +16,7 @@ export default function EditorialSection() {
   };
 
   return (
-    <section id="editorials" className="py-20 bg-soft-beige">
+    <section id="editorials" className="py-20 bg-white/30 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 scroll-reveal">
           <h2 className="font-dm-serif text-4xl md:text-5xl font-bold text-charcoal mb-4">

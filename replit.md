@@ -87,8 +87,12 @@ This is a professional portfolio website for Priya Dhurve, a fashion influencer 
 - **Production**: NODE_ENV=production with bundled JavaScript execution
 - **Database**: DATABASE_URL environment variable for PostgreSQL connection
 
-## Changelog
-- June 29, 2025. Initial setup
+## Recent Changes
+- **June 29, 2025**: Initial portfolio setup with complete image galleries
+- **June 29, 2025**: Added blush pink + beige gradient background
+- **June 29, 2025**: Updated Instagram links to provided URL with tracking parameters
+- **June 29, 2025**: Added all 19 provided images to complete gallery section
+- **June 29, 2025**: Implemented glassmorphism design with backdrop blur effects
 
 ## User Preferences
 

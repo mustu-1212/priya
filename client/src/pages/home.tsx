@@ -14,7 +14,7 @@ export default function Home() {
   useScrollReveal();
 
   return (
-    <div className="bg-soft-beige font-poppins text-charcoal">
+    <div className="font-poppins text-charcoal">
       <Navigation />
       <HeroSection />
       <AboutSection />
