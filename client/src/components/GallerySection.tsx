@@ -84,15 +84,16 @@ export default function GallerySection() {
           <div className="w-20 h-1 bg-dusty-rose mx-auto mt-6"></div>
         </div>
         
-        {/* Masonry Gallery */}
-        <div className="masonry-grid scroll-reveal">
+        {/* Responsive Gallery Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {galleryImages.map((image, index) => (
-            <div key={index} className="masonry-item">
+            <div key={index} className="scroll-reveal" style={{ animationDelay: `${index * 0.05}s` }}>
               <img 
                 src={image.src} 
                 alt={image.alt}
-                className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 cursor-pointer"
+                className="w-full h-auto rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer object-cover"
                 onClick={() => openLightbox(image.src, image.alt)}
+                loading="lazy"
               />
             </div>
           ))}
