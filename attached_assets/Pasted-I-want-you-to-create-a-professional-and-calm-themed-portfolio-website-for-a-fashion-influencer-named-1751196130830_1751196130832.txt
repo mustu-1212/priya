@@ -1,0 +1,66 @@
+I want you to create a professional and calm-themed portfolio website for a fashion influencer named Priya Dhurve. She is a medico by profession and a fashion, lifestyle & exploration influencer by passion. The website should reflect both elegance and professionalism, using calm colors like soft beige, blush pink, off-white, or pastel tones.
+
+The website must include:
+
+1. Home Page
+Hero banner featuring 2–3 of her best photos (from the uploaded 19 images).
+
+Her name in bold (e.g., "Priya Dhurve") and tagline like "Fashion | Lifestyle | Exploration"
+
+A clean, modern layout
+
+2. About Section
+A short bio:
+
+"Medico by profession | Fashion, Exploration & Lifestyle by passion"
+
+Add location: Betul ➜ Bhopal
+
+Mention: “Open for Freelancing & Collaborations”
+
+3. Gallery Section
+Display all 19 uploaded images in a masonry-style gallery or carousel slider
+
+Add lightbox effect when clicked
+
+4. Editorials Section
+A section that looks like a magazine layout or editorial photo blog (like the first reference image with full-width photos)
+
+Use 4–5 handpicked images from the gallery for this
+
+5. Polaroids Section
+Styled like Instagram story highlights (minimalist circles with shadow)
+
+Optional caption hover effect
+
+Can reuse some images from her Instagram highlights
+
+6. Contact Section
+Include contact email: durgadhurve527@gmail.com
+
+Instagram handle: @belike_._priya
+
+A simple contact form (name, email, message)
+
+A statement: "Let’s collaborate!"
+
+7. Navigation Bar
+Sticky on top with links: Home | Editorials | Polaroids | About | Contact
+
+Elegant font like Poppins, Lora, or DM Serif Display
+
+8. Footer
+Instagram and social icons
+
+“© 2025 Priya Dhurve. All rights reserved.”
+
+✨ Extra Styling Notes:
+Use calm color palette: beige, off-white, soft gold, dusty rose
+
+Font: Modern serif/sans-serif mix
+
+Add subtle animations on scroll
+
+Responsive design for mobile and tablet
+
+Upload and reference the 19 provided photos properly. Prioritize image quality and layout. Use HTML, CSS (with flex or grid), and JS for basic interactivity. Avoid dark themes. The overall vibe should be classy, soft, editorial, and welcoming.
