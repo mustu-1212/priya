@@ -105,6 +105,7 @@ This is a professional portfolio website for Priya Dhurve, a fashion influencer 
 - **June 29, 2025**: Enhanced navigation with blush pink accents and hover animations
 - **June 29, 2025**: Added Vercel deployment configuration with vercel.json and README
 - **June 29, 2025**: Implemented contact form with mailto fallback for Vercel deployment
+- **June 29, 2025**: Fixed Vercel deployment configuration to resolve 'functions' vs 'builds' property conflict
 
 ## User Preferences
 

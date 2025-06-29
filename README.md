@@ -38,13 +38,13 @@ If using database features:
 ### Build Configuration
 
 The project is pre-configured for Vercel with:
-- `vercel.json` for routing and serverless functions
-- Automatic static file serving
-- API routes at `/api/*`
+- `vercel.json` for static file serving and routing
+- Automatic build process using `@vercel/static-build`
+- Optimized static site deployment
 
 ### Contact Form
 
-The contact form automatically falls back to `mailto:` functionality when deployed on Vercel, ensuring reliable message delivery without requiring external email services.
+The contact form automatically falls back to `mailto:` functionality when deployed on Vercel, ensuring reliable message delivery without requiring server-side processing or external email services.
 
 ## Development
 
