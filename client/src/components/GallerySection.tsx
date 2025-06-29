@@ -17,6 +17,15 @@ import img16 from "@assets/510319211_1884894259032593_3321186799654837343_n_1751
 import img17 from "@assets/510495426_2765780833608202_4814122659902697618_n_1751196155581.jpg";
 import img18 from "@assets/510528653_1225376565468603_1352924291538325552_n_1751196155581.jpg";
 import img19 from "@assets/510601764_1004701494869204_2173151399373284746_n_1751196155581.jpg";
+import img20 from "@assets/500455369_1009982677636394_4413991735064776701_n_1751196971865.jpg";
+import img21 from "@assets/508583192_1225239868822566_837706465892404330_n_1751196971865.jpg";
+import img22 from "@assets/509414443_1893390568121083_7074378999767808182_n_1751196971866.jpg";
+import img23 from "@assets/510234544_1658331568218628_1265192488038812358_n_1751196971866.jpg";
+import img24 from "@assets/510319211_1884894259032593_3321186799654837343_n_1751196971866.jpg";
+import img25 from "@assets/510495426_2765780833608202_4814122659902697618_n_1751196971867.jpg";
+import img26 from "@assets/510601764_1004701494869204_2173151399373284746_n_1751196971867.jpg";
+import img27 from "@assets/510748270_1441920093478084_5638337246281760608_n_1751196971868.jpg";
+import img28 from "@assets/510528653_1225376565468603_1352924291538325552_n_1751196985284.jpg";
 
 const galleryImages = [
   { src: img1, alt: "Traditional blue floral dress" },
@@ -37,7 +46,16 @@ const galleryImages = [
   { src: img16, alt: "Red traditional temple visit" },
   { src: img17, alt: "Pink aesthetic cafe vibes" },
   { src: img18, alt: "Mint green evening look" },
-  { src: img19, alt: "Casual blue denim style" }
+  { src: img19, alt: "Casual blue denim style" },
+  { src: img20, alt: "Evening lights white outfit" },
+  { src: img21, alt: "Colorful event styling" },
+  { src: img22, alt: "Traditional orange wedding attire" },
+  { src: img23, alt: "Blue casual shopping look" },
+  { src: img24, alt: "Red traditional temple dress" },
+  { src: img25, alt: "Pink aesthetic cafe moment" },
+  { src: img26, alt: "Shopping day casual style" },
+  { src: img27, alt: "Evening outdoor casual look" },
+  { src: img28, alt: "Mint green elegant evening" }
 ];
 
 export default function GallerySection() {
